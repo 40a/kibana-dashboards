@@ -1,5 +1,5 @@
 {
-  "title": "CF WebApp Dashboard",
+  "title": "{{ARGS.name || 'Please provide name=xxx'}} - {{ARGS.guid || 'Please provide guid=xxx'}}",
   "services": {
     "query": {
       "list": {
@@ -540,9 +540,7 @@
         "syslog_severity:\"warning\"",
         "syslog_severity:\"informational\"",
         "syslog_severity:\"debug\"",
-        "verb:(GET PUT DELETE HEAD)",
-        "",
-        "grok.paas.dev.col.tx.cpgpaas.net"
+        "verb:(GET PUT DELETE HEAD)"
       ],
       "remember": 10,
       "enable": true
