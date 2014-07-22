@@ -1,0 +1,4 @@
+kibana-dashboards
+=================
+
+Kibana Dashboards
