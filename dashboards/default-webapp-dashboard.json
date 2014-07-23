@@ -1,5 +1,5 @@
 {
-  "title": "{{ARGS.name || 'Please provide name=xxx'}} - {{ARGS.guid || 'Please provide guid=xxx'}}",
+  "title": "PaaS WebApp - {{ARGS.name || 'Please provide name=xxx'}} - {{ARGS.guid || 'Please provide guid=xxx'}}",
   "services": {
     "query": {
       "list": {
